@@ -1,0 +1,114 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: salmon; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav-part2 h1{
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+#nav h3{
+    font-size: 17px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+#nav i{
+    font-size: 16px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    padding: 5px 8px;
+    border-radius: 50px;
+}
+#nav button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1px solid black;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+
+}
+#nav #btn2{
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+#heading h1{
+    font-size: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);    
+    width: 100%;
+    text-align: center;
+}
+#heading img{
+    width: 320px;
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+#heading #model{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#heading #model1{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#heading #model2{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#bottomtext p{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 17px;
+}
+#bottomicons{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    font-size: 20px;
+}
+#bottomicons p{
+    font-size: 13px;
+}
+#arrow i{
+    border: 2px solid black;
+    border-radius: 50px;
+    font-size: 70px;
+    position: absolute;
+    bottom: 1%;
+    left: 48%;
+}
